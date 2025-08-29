@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каменная бумага | Поставка из Китая</title>
+  <meta name="description" content="Изделия из каменной бумаги: мешки, упаковка, листы. Поставка из Китая оптом. Сертификаты, доставка в РФ и ЕС.">
+  <meta property="og:title" content="Каменная бумага | Поставка из Китая">
+  <meta property="og:description" content="Изделия из каменной бумаги: мешки, упаковка, листы. Сертификаты и доставка.">
+  <meta property="og:type" content="website">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; color: #1e293b; scroll-behavior: smooth; }
+    .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+    header { background: #0ea5e9; color: #fff; position: sticky; top: 0; z-index: 100; }
+    .header .container { display: flex; justify-content: space-between; align-items: center; padding: 1rem; }
+    .logo { font-size: 1.5rem; font-weight: bold; }
+    .nav a { margin-left: 1rem; color: #fff; text-decoration: none; font-weight: 500; }
+    .nav a:hover { text-decoration: underline; }
+    .hero { background: linear-gradient(rgba(14,165,233,0.7), rgba(14,165,233,0.7)), url('https://picsum.photos/1600/600?grayscale'); background-size: cover; background-position: center; color: #fff; text-align: center; padding: 5rem 1rem; }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 1rem; opacity: 0; transform: translateY(30px); transition: all 1s ease; }
+    .hero p, .hero a { opacity: 0; transform: translateY(30px); transition: all 1s ease 0.3s; }
+    .btn { display: inline-block; padding: 0.75rem 1.5rem; background: #0ea5e9; color: #fff; border-radius: 12px; text-decoration: none; font-weight: 600; transition: 0.3s; }
+    .btn:hover { background: #0284c7; }
+    .section { padding: 4rem 1rem; opacity: 0; transform: translateY(40px); transition: all 1s ease; }
+    .section.visible { opacity: 1; transform: translateY(0); }
+    .section.gray { background: #f8fafc; }
+    h2 { font-size: 2rem; margin-bottom: 1rem; text-align: center; }
+    ul { list-style: none; padding: 0; }
+    ul li { margin-bottom: 0.5rem; padding-left: 1.2rem; position: relative; }
+    ul li::before { content: '✔'; position: absolute; left: 0; color: #0ea5e9; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .card { background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 1.5rem; text-align: center; transition: transform 0.3s ease; }
+    .card:hover { transform: translateY(-5px); }
+    details { background: #fff; border-radius: 8px; padding: 1rem; margin-bottom: 0.5rem; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    details summary { font-weight: 600; }
+    .form { display: grid; gap: 1rem; max-width: 500px; margin: 0 auto; }
+    .form input, .form textarea { padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem; }
+    .form button { border: none; cursor: pointer; }
+    .footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 1.5rem; font-size: 0.9rem; }
+    @media (max-width: 768px) {
+      .hero h2 { font-size: 2rem; }
+      .nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Stone Paper</h1>
+      <nav class="nav">
+        <a href="#about">О продукте</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#usage">Применение</a>
+        <a href="#certs">Сертификаты</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h2>Каменная бумага для современного производства</h2>
+      <p>Прочные, экологичные и влагостойкие изделия из каменной бумаги. Прямая поставка из Китая.</p>
+      <a href="#contact" class="btn">Запросить прайс</a>
+    </div>
+  </section>
+
+  <!-- О продукте -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>О продукте</h2>
+      <p>Каменная бумага — инновационный материал на основе карбоната кальция. Отличается влагостойкостью, прочностью и экологичностью. Подходит для упаковки, полиграфии, мешков и других изделий.</p>
+      <ul>
+        <li>Влагостойкость</li>
+        <li>Прочность выше, чем у обычной бумаги</li>
+        <li>Возможность полноцветной печати</li>
+        <li>Экологичность (без деревьев, меньше воды)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Каталог -->
+  <section id="catalog" class="section gray">
+    <div class="container">
+      <h2>Каталог продукции</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Мешки</h3>
+          <p>Размеры: 1170×950 мм (±10). Высокая прочность и влагозащита.</p>
+        </div>
+        <div class="card">
+          <h3>Упаковочная бумага</h3>
+          <p>Листы и рулоны разных форматов. Подходит для печати и упаковки.</p>
+        </div>
+        <div class="card">
+          <h3>Листы</h3>
+          <p>Форматы A4, A3 и по заказу. Гладкая поверхность, устойчивая к разрыву.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Применение -->
+  <section id="usage" class="section">
+    <div class="container">
+      <h2>Применение</h2>
+      <ul>
+        <li>Упаковка для пищевой промышленности</li>
+        <li>Промышленные мешки</li>
+        <li>Печать и полиграфия</li>
+        <li>Экологичная альтернатива пластиковой упаковке</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Сертификаты -->
+  <section id="certs" class="section gray">
+    <div class="container">
+      <h2>Сертификаты</h2>
+      <p>Продукция сертифицирована для использования в пищевой и промышленной сферах. Доступны сертификаты качества и безопасности по запросу.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <h2>Часто задаваемые вопросы</h2>
+      <details>
+        <summary>В чем отличие каменной бумаги от обычной?</summary>
+        <p>Она прочнее, влагостойкая и производится без использования древесины.</p>
+      </details>
+      <details>
+        <summary>Можно ли печатать на ней?</summary>
+        <p>Да, подходит для полноцветной печати.</p>
+      </details>
+      <details>
+        <summary>Есть ли доставка в Россию и Европу?</summary>
+        <p>Да, организуем доставку в РФ и ЕС.</p>
+      </details>
+      <details>
+        <summary>Какие минимальные объемы заказа?</summary>
+        <p>Обсуждается индивидуально, начиная от 1 паллеты.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="section gray">
+    <div class="container">
+      <h2>Связаться с нами</h2>
+      <form action="https://formsubmit.co/your@email.com" method="POST" class="form">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="phone" placeholder="Телефон" required>
+        <textarea name="message" placeholder="Комментарий" rows="4"></textarea>
+        <button type="submit" class="btn">Отправить заявку</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Stone Paper | Все права защищены</p>
+    </div>
+  </footer>
+
+  <script>
+    // Анимация hero текста при загрузке
+    window.addEventListener('load', () => {
+      document.querySelector('.hero h2').style.opacity = '1';
+      document.querySelector('.hero h2').style.transform = 'translateY(0)';
+      document.querySelector('.hero p').style.opacity = '1';
+      document.querySelector('.hero p').style.transform = 'translateY(0)';
+      document.querySelector('.hero a').style.opacity = '1';
+      document.querySelector('.hero a').style.transform = 'translateY(0)';
+    });
+
+    // Анимация появления секций при скролле
+    const sections = document.querySelectorAll('.section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    sections.forEach(sec => observer.observe(sec));
+  </script>
+</body>
+</html>
